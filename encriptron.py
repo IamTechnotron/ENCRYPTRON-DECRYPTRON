@@ -1,7 +1,7 @@
 '''
 Logic:
 > takes the directories to read and write file
-> It breaks the file a list the lines, which is again broken into list to the characters
+> It breaks the file in a list of the lines, which is again broken into a list of the characters
 > Then iterates through each character and changes whenever needed!
 > Changes made:
     1. ASCII of letters are added by key and proceed accordingly (like before)
