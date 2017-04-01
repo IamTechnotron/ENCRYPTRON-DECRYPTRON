@@ -17,7 +17,6 @@ key = randint(1, 9)
 rfile_directory = input("Enter the file name with the directory to be encrypted:\n")
 assert os.path.exists(rfile_directory), "File Not Found at specified location !!!"
 wfile_directory = input("Enter the file name with the directory where encrypted file will be stored:\n")
-assert os.path.exists(wfile_directory), "File Can Not Created or Accessed at the specified location !!!"
 wfile = open(wfile_directory, 'w')
 with open(rfile_directory, 'r') as rfile:
     for l in rfile:
