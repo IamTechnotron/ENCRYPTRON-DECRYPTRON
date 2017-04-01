@@ -1,2 +1,2 @@
 # ENCRYPTRON-DECRYPTRON
-This rep consists a series of basic Encryption and Decryption programs 
+This rep consists a basic Encryption and Decryption programs 
