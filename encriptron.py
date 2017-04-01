@@ -9,8 +9,6 @@ Logic:
     3. commas are replaced by ~
 '''
 
-
-
 from random import randint
 import os
 
