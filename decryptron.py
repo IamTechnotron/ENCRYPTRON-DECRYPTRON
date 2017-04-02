@@ -2,8 +2,6 @@ from random import randint
 import os
 import codecs
 
-#C:\Users\Avik Mukherjee\Desktop\EDtron\en_file.txt
-
 print("\t\t\tW E L C O M E   T O   D E C R I P T R O N_v1.0\n\n\n")
 rfile_directory = input("Enter the file name with the directory to be decrypted:\n")
 assert os.path.exists(rfile_directory), "File Not Found at specified location !!!"
@@ -41,4 +39,3 @@ wfile.close()
 size = os.path.getsize(wfile_directory)
 with open(wfile_directory,"ab+") as file:
     file.truncate(size-1)
-
