@@ -4,7 +4,7 @@ import codecs
 
 #C:\Users\Avik Mukherjee\Desktop\EDtron\en_file.txt
 
-print("\t\t\tW E L C O M E   T O   E N C R I P T R O N_v1.0\n\n\n")
+print("\t\t\tW E L C O M E   T O   D E C R I P T R O N_v1.0\n\n\n")
 rfile_directory = input("Enter the file name with the directory to be decrypted:\n")
 assert os.path.exists(rfile_directory), "File Not Found at specified location !!!"
 wfile_directory = input("Enter the file name with the directory where encrypted file will be stored:\n")
