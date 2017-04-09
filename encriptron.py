@@ -47,5 +47,4 @@ with open(rfile_directory, 'r') as rfile:
 
 
 wfile.write(str(key))
-rfile.close()
 wfile.close()
