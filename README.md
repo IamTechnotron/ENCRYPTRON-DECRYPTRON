@@ -1,2 +1,2 @@
 # ENCRYPTRON-DECRYPTRON
-This rep consists a basic Encryption and Decryption programs 
+This repo consists a basic Encryption and Decryption programs 
